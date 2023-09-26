@@ -1,1 +1,0 @@
-function randTime(min, max);
