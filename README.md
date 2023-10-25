@@ -4,9 +4,9 @@
 
 Tech and concepts used:
 
-HTML: Used to create the basic structure of the game, including the mole holes, the score counter, and the start button.
-CSS: Used to style the game, including the colors, fonts, and animations.
-JavaScript: Used to implement the game logic, such as spawning and hiding moles, tracking the player's score, and ending the game when the player reaches a certain score or runs out of time.
+* HTML: Used to create the basic structure of the game, including the mole holes, the score counter, and the start button.
+* CSS: Used to style the game, including the colors, fonts, and animations.
+* JavaScript: Used to implement the game logic, such as spawning and hiding moles, tracking the player's score, and ending the game when the player reaches a certain score or runs out of time.
 
 Have fun!
 
