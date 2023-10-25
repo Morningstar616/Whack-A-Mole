@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #ffc600;
+  background: #de813b;
 }
 
 *, *:before, *:after {
@@ -16,7 +16,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 10rem;
+  font-size: 7rem;
   line-height: 1;
   margin-bottom: 0;
 }
@@ -26,6 +26,35 @@ h1 {
   padding: 0 3rem;
   line-height: 1;
   border-radius: 1rem;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+.start-button {
+  /* Button appearance */
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #4f4407;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+
+  /* Button hover effect */
+  background-color: #4f4407;
+  transform: scale(1.1);
+}
+
+.start-button:active {
+  background-color: #4f4407;
+  transform: scale(0.9);
 }
 
 .game {
@@ -44,7 +73,7 @@ h1 {
 
 .hole:after {
   display: block;
-  background: url(dirt.svg) bottom center no-repeat;
+  background: url('dirt.svg') bottom center no-repeat;
   background-size: contain;
   content: '';
   width: 100%;
